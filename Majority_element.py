@@ -1,4 +1,5 @@
- def majorityElement(self, nums: List[int]) -> int:
+#Moore's Voting Algorithm
+def majorityElement(self, nums: List[int]) -> int:
         c=0
         m=None
         for i in nums:
