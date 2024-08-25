@@ -8,7 +8,10 @@ def solve():
  while i*i<=n:
     if (n%i==0):
         print("no")
- print("yes")
+        break
+    i+=1
+else:
+   print("yes")
 
 t = 1
 t = int(input())
